@@ -1,0 +1,74 @@
+body.light-mode{
+  color: black;
+  background-color: white;
+}
+
+ul{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+
+}
+
+a{
+  color: gray;
+  text-decoration: none;
+}
+
+.AG.AG {
+  text-align: center;
+}
+
+.AG img {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  border: 5px solid gray;
+  width: 150px;
+  height: 150px;
+}
+
+main{
+  padding: 10px;
+  line-height: 1.5;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.card figcaption {
+  font-size: 15px;
+  color: gray;
+  text-align: center;
+  margin-top: 0rem;
+  padding: 16px;
+}
+
+
+.rectangular-image {
+  border-radius: 0;
+
+}
+
+.card img{
+  width: 1000px;
+  height: 500px;
+  display: block;
+  margin: 0 auto;
+  border: 5px solid gray;
+  border-radius: 4%;
+  
+}
+
+.rotate-in {
+  transform: rotate(360deg);
+  animation: rotateIn 2s ease-in-out forwards;
+}
+
+@keyframes rotateIn {
+  from { transform: rotate(360deg); }
+  to { transform: rotate(0deg); }
+}
